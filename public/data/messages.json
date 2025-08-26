@@ -1,0 +1,390 @@
+[
+  {
+    "id": "msg-1",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "Hey Sarah! I saw your work at Vercel. The new dashboard looks amazing!",
+    "timestamp": "2025-06-19T20:30:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-2",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "Thank you! We've been working really hard on the UX. What do you think about the new deployment flow?",
+    "timestamp": "2025-06-19T20:35:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-3",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "It's incredibly smooth! The auto-optimization features are mind-blowing. How did you manage to make it so intuitive?",
+    "timestamp": "2025-06-19T20:40:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-4",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "Lots of user research and iterations! We tested with hundreds of developers to get the flow right.",
+    "timestamp": "2025-06-19T20:45:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-5",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "That shows! The attention to detail is incredible. I'm definitely using Vercel for my next project.",
+    "timestamp": "2025-06-19T21:15:10Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-6",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "Amazing! Let me know if you need any help getting started. Always happy to help fellow developers! 🚀",
+    "timestamp": "2025-06-19T21:20:25Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-7",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "Actually, I was working on a React dashboard and wondering if you have any design feedback?",
+    "timestamp": "2025-06-19T22:10:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-8",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "",
+    "timestamp": "2025-06-19T22:12:20Z",
+    "read": true,
+    "type": "image",
+    "imageUrl": "/images/messages/dashboard-preview.png"
+  },
+  {
+    "id": "msg-9",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "Wow, this looks great! I love the clean layout. Maybe consider adding more whitespace between the cards?",
+    "timestamp": "2025-06-19T22:30:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-10",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "And the color scheme is perfect! Very modern and professional.",
+    "timestamp": "2025-06-19T22:32:10Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-11",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "Great suggestions! I'll add more spacing. What about the navigation?",
+    "timestamp": "2025-06-19T22:40:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-12",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "The nav is good but maybe make the active state more prominent? Perhaps a subtle background or border?",
+    "timestamp": "2025-06-19T22:42:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-13",
+    "conversationId": "conv-1",
+    "senderId": "11",
+    "content": "Perfect idea! I was thinking the same thing. Should I use a blue accent or stick with gray?",
+    "timestamp": "2025-06-19T22:43:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-14",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "Blue would be great! It'll match your primary buttons and create better visual hierarchy.",
+    "timestamp": "2025-06-19T22:44:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-15",
+    "conversationId": "conv-1",
+    "senderId": "12",
+    "content": "Thanks for the feedback on the design! I'll implement those changes tomorrow.",
+    "timestamp": "2025-06-19T22:45:30Z",
+    "read": false,
+    "type": "text"
+  },
+  {
+    "id": "msg-16",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "Hey John! Saw your tweet about React and TypeScript. Great to see more developers embracing type safety!",
+    "timestamp": "2025-06-19T18:15:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-17",
+    "conversationId": "conv-2",
+    "senderId": "11",
+    "content": "Thanks Alex! TypeScript has been a game-changer for me. No more runtime errors from typos! 😅",
+    "timestamp": "2025-06-19T18:20:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-18",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "Exactly! The intellisense alone makes it worth it. Have you tried using it with React Query?",
+    "timestamp": "2025-06-19T18:25:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-19",
+    "conversationId": "conv-2",
+    "senderId": "11",
+    "content": "Not yet, but I've heard great things! Is the setup complex?",
+    "timestamp": "2025-06-19T18:30:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-20",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "Actually super simple! The TypeScript support is excellent. Want me to send you a code example?",
+    "timestamp": "2025-06-19T18:35:10Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-21",
+    "conversationId": "conv-2",
+    "senderId": "11",
+    "content": "That would be amazing! Always appreciate real-world examples.",
+    "timestamp": "2025-06-19T18:40:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-22",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "```typescript\nconst { data, isLoading, error } = useQuery({\n  queryKey: ['users'],\n  queryFn: () => fetch('/api/users').then(res => res.json())\n})\n```",
+    "timestamp": "2025-06-19T18:45:15Z",
+    "read": true,
+    "type": "code"
+  },
+  {
+    "id": "msg-23",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "The types are automatically inferred! No manual typing needed for most cases.",
+    "timestamp": "2025-06-19T18:46:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-24",
+    "conversationId": "conv-2",
+    "senderId": "11",
+    "content": "This is clean! I love how declarative it is. I'm definitely trying this on my next project.",
+    "timestamp": "2025-06-19T19:15:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-25",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "You'll love it! The caching and background refetching make apps feel so much smoother.",
+    "timestamp": "2025-06-19T19:20:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-26",
+    "conversationId": "conv-2",
+    "senderId": "11",
+    "content": "Speaking of projects, I saw your open source contributions. That performance optimization PR was impressive!",
+    "timestamp": "2025-06-19T20:45:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-27",
+    "conversationId": "conv-2",
+    "senderId": "13",
+    "content": "Thanks! It was a fun challenge. Reduced bundle size by 40% just by optimizing imports.",
+    "timestamp": "2025-06-19T21:10:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-28",
+    "conversationId": "conv-2",
+    "senderId": "11",
+    "content": "Perfect! Let's merge that PR then. Great work on the optimization! 🚀",
+    "timestamp": "2025-06-19T21:20:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-29",
+    "conversationId": "conv-3",
+    "senderId": "11",
+    "content": "Hi Maria! I just read your accessibility article. Incredibly insightful!",
+    "timestamp": "2025-06-19T19:30:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-30",
+    "conversationId": "conv-3",
+    "senderId": "14",
+    "content": "Thank you so much! It's a topic I'm really passionate about. Did any particular section resonate with you?",
+    "timestamp": "2025-06-19T19:35:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-31",
+    "conversationId": "conv-3",
+    "senderId": "11",
+    "content": "The part about keyboard navigation really opened my eyes. I never realized how many users rely on it.",
+    "timestamp": "2025-06-19T19:40:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-32",
+    "conversationId": "conv-3",
+    "senderId": "14",
+    "content": "Exactly! It's often overlooked but so important. About 15% of users navigate primarily with keyboards.",
+    "timestamp": "2025-06-19T19:45:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-33",
+    "conversationId": "conv-3",
+    "senderId": "11",
+    "content": "That's a huge number! I'm going to audit my current projects for keyboard accessibility.",
+    "timestamp": "2025-06-19T19:50:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-34",
+    "conversationId": "conv-3",
+    "senderId": "14",
+    "content": "That's wonderful! If you need any help or want me to review anything, I'm happy to help! 🌟",
+    "timestamp": "2025-06-19T19:55:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-35",
+    "conversationId": "conv-3",
+    "senderId": "11",
+    "content": "I might take you up on that! Your expertise would be invaluable.",
+    "timestamp": "2025-06-19T20:10:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-36",
+    "conversationId": "conv-3",
+    "senderId": "14",
+    "content": "I loved your accessibility article! Would love to collaborate on a project.",
+    "timestamp": "2025-06-19T20:15:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-37",
+    "conversationId": "conv-4",
+    "senderId": "15",
+    "content": "Hi John! I came across your React project on Twitter. Really impressive work!",
+    "timestamp": "2025-06-19T18:45:15Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-38",
+    "conversationId": "conv-4",
+    "senderId": "11",
+    "content": "Thank you! That means a lot coming from you. Your startup sounds exciting!",
+    "timestamp": "2025-06-19T18:50:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-39",
+    "conversationId": "conv-4",
+    "senderId": "15",
+    "content": "We're building AI-powered productivity tools and looking for talented React developers. Interested?",
+    "timestamp": "2025-06-19T18:55:20Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-40",
+    "conversationId": "conv-4",
+    "senderId": "11",
+    "content": "Definitely interested! Could you tell me more about the role and the team?",
+    "timestamp": "2025-06-19T19:10:45Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-41",
+    "conversationId": "conv-4",
+    "senderId": "15",
+    "content": "We're a team of 8, fully remote. You'd be leading frontend development for our main dashboard. TypeScript + React + Next.js stack.",
+    "timestamp": "2025-06-19T19:15:30Z",
+    "read": true,
+    "type": "text"
+  },
+  {
+    "id": "msg-42",
+    "conversationId": "conv-4",
+    "senderId": "15",
+    "content": "The compensation is competitive and we offer equity. Plus you'd be working on cutting-edge AI integration!",
+    "timestamp": "2025-06-19T19:20:15Z",
+    "read": false,
+    "type": "text"
+  },
+  {
+    "id": "msg-43",
+    "conversationId": "conv-4",
+    "senderId": "15",
+    "content": "Hey! Saw your React project. Impressive work! Are you interested in joining our startup?",
+    "timestamp": "2025-06-19T19:30:22Z",
+    "read": false,
+    "type": "text"
+  }
+]

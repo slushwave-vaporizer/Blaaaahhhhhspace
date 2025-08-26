@@ -1,0 +1,110 @@
+[
+  {
+    "id": "notif-1",
+    "type": "like",
+    "fromUserId": "12",
+    "targetId": "tweet-9",
+    "content": "liked your tweet",
+    "timestamp": "2025-06-19T22:30:15Z",
+    "read": false
+  },
+  {
+    "id": "notif-2",
+    "type": "retweet",
+    "fromUserId": "13",
+    "targetId": "tweet-9",
+    "content": "retweeted your tweet",
+    "timestamp": "2025-06-19T21:45:30Z",
+    "read": false
+  },
+  {
+    "id": "notif-3",
+    "type": "follow",
+    "fromUserId": "15",
+    "targetId": null,
+    "content": "followed you",
+    "timestamp": "2025-06-19T21:15:20Z",
+    "read": false
+  },
+  {
+    "id": "notif-4",
+    "type": "mention",
+    "fromUserId": "14",
+    "targetId": "tweet-12",
+    "content": "mentioned you in a tweet",
+    "timestamp": "2025-06-19T20:30:45Z",
+    "read": true
+  },
+  {
+    "id": "notif-5",
+    "type": "reply",
+    "fromUserId": "12",
+    "targetId": "reply-1",
+    "content": "replied to your tweet",
+    "timestamp": "2025-06-19T19:50:15Z",
+    "read": true
+  },
+  {
+    "id": "notif-6",
+    "type": "like",
+    "fromUserId": "4",
+    "targetId": "tweet-9",
+    "content": "liked your tweet",
+    "timestamp": "2025-06-19T19:20:30Z",
+    "read": true
+  },
+  {
+    "id": "notif-7",
+    "type": "quote",
+    "fromUserId": "13",
+    "targetId": "quote-1",
+    "content": "quoted your tweet",
+    "timestamp": "2025-06-19T18:45:15Z",
+    "read": true
+  },
+  {
+    "id": "notif-8",
+    "type": "message",
+    "fromUserId": "15",
+    "targetId": "conv-4",
+    "content": "sent you a message",
+    "timestamp": "2025-06-19T18:30:22Z",
+    "read": false
+  },
+  {
+    "id": "notif-9",
+    "type": "like",
+    "fromUserId": "6",
+    "targetId": "tweet-9",
+    "content": "liked your tweet",
+    "timestamp": "2025-06-19T17:15:45Z",
+    "read": true
+  },
+  {
+    "id": "notif-10",
+    "type": "follow",
+    "fromUserId": "14",
+    "targetId": null,
+    "content": "followed you",
+    "timestamp": "2025-06-19T16:30:20Z",
+    "read": true
+  },
+  {
+    "id": "notif-11",
+    "type": "retweet",
+    "fromUserId": "8",
+    "targetId": "tweet-9",
+    "content": "retweeted your tweet",
+    "timestamp": "2025-06-19T15:45:30Z",
+    "read": true
+  },
+  {
+    "id": "notif-12",
+    "type": "like",
+    "fromUserId": "10",
+    "targetId": "tweet-9",
+    "content": "liked your tweet",
+    "timestamp": "2025-06-19T14:20:15Z",
+    "read": true
+  }
+]

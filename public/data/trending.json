@@ -1,0 +1,107 @@
+[
+  {
+    "id": "trend-1",
+    "topic": "#React19",
+    "category": "Technology",
+    "tweetCount": 45600,
+    "description": "React 19 stable release announcement"
+  },
+  {
+    "id": "trend-2",
+    "topic": "#GPT5",
+    "category": "Technology", 
+    "tweetCount": 127800,
+    "description": "OpenAI announces GPT-5 development"
+  },
+  {
+    "id": "trend-3",
+    "topic": "#TeslaFSD",
+    "category": "Technology",
+    "tweetCount": 34200,
+    "description": "Tesla Full Self-Driving beta updates"
+  },
+  {
+    "id": "trend-4",
+    "topic": "#TypeScript",
+    "category": "Programming",
+    "tweetCount": 23400,
+    "description": "TypeScript 5.5 release discussions"
+  },
+  {
+    "id": "trend-5",
+    "topic": "#WebDev",
+    "category": "Programming",
+    "tweetCount": 89100,
+    "description": "Web development trends and discussions"
+  },
+  {
+    "id": "trend-6",
+    "topic": "#Vercel",
+    "category": "Technology",
+    "tweetCount": 18900,
+    "description": "Vercel platform updates and features"
+  },
+  {
+    "id": "trend-7",
+    "topic": "#TailwindCSS",
+    "category": "Design",
+    "tweetCount": 15600,
+    "description": "Tailwind CSS v4.0 announcement"
+  },
+  {
+    "id": "trend-8",
+    "topic": "#AI",
+    "category": "Technology",
+    "tweetCount": 234500,
+    "description": "Artificial Intelligence developments"
+  },
+  {
+    "id": "trend-9",
+    "topic": "#OpenSource",
+    "category": "Programming",
+    "tweetCount": 56700,
+    "description": "Open source projects and contributions"
+  },
+  {
+    "id": "trend-10",
+    "topic": "#GitHub",
+    "category": "Technology",
+    "tweetCount": 67800,
+    "description": "GitHub platform updates and Copilot"
+  },
+  {
+    "id": "trend-11",
+    "topic": "#Accessibility",
+    "category": "Design",
+    "tweetCount": 12300,
+    "description": "Web accessibility best practices"
+  },
+  {
+    "id": "trend-12",
+    "topic": "#QuantumComputing",
+    "category": "Technology",
+    "tweetCount": 9800,
+    "description": "Microsoft's quantum computing investment"
+  },
+  {
+    "id": "trend-13",
+    "topic": "#Microsoft",
+    "category": "Technology",
+    "tweetCount": 45200,
+    "description": "Microsoft technology announcements"
+  },
+  {
+    "id": "trend-14",
+    "topic": "#Google",
+    "category": "Technology",
+    "tweetCount": 78900,
+    "description": "Google AI and technology updates"
+  },
+  {
+    "id": "trend-15",
+    "topic": "#Productivity",
+    "category": "Business",
+    "tweetCount": 34500,
+    "description": "Productivity tools and AI integration"
+  }
+]

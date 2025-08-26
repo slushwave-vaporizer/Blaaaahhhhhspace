@@ -1,0 +1,230 @@
+/* YourSpace Creative Labs - Global Styles with Vaporwave Theme */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* @tweakable */ :root {
+  --neon-pink: #ff006e;
+  --neon-purple: #8338ec;
+  --neon-blue: #3a86ff;
+  --neon-cyan: #06ffa5;
+  --neon-orange: #fb8500;
+  
+  --dark-purple: #240046;
+  --deep-blue: #10002b;
+  --midnight: #000011;
+  --dark-cyan: #003554;
+  --charcoal: #0d1b2a;
+  
+  --glow-intensity: 20px;
+  --border-radius: 12px;
+  --transition-speed: 0.3s;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, var(--midnight) 0%, var(--dark-purple) 50%, var(--deep-blue) 100%);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Neon Glow Effects */
+.neon-glow {
+  filter: drop-shadow(0 0 var(--glow-intensity) currentColor);
+  transition: filter var(--transition-speed) ease;
+}
+
+.neon-glow:hover {
+  filter: drop-shadow(0 0 calc(var(--glow-intensity) * 1.5) currentColor);
+}
+
+.neon-glow-green {
+  filter: drop-shadow(0 0 var(--glow-intensity) #10b981);
+  transition: filter var(--transition-speed) ease;
+}
+
+.neon-glow-green:hover {
+  filter: drop-shadow(0 0 calc(var(--glow-intensity) * 1.5) #10b981);
+}
+
+.neon-glow-purple {
+  filter: drop-shadow(0 0 var(--glow-intensity) var(--neon-purple));
+  transition: filter var(--transition-speed) ease;
+}
+
+.neon-glow-purple:hover {
+  filter: drop-shadow(0 0 calc(var(--glow-intensity) * 1.5) var(--neon-purple));
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--neon-pink) 0%, var(--neon-purple) 50%, var(--neon-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated Background */
+.animated-bg {
+  background: linear-gradient(-45deg, var(--midnight), var(--dark-purple), var(--deep-blue), var(--dark-cyan));
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Pulse Animation */
+.pulse-neon {
+  animation: pulseNeon 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulseNeon {
+  from {
+    filter: drop-shadow(0 0 10px currentColor);
+  }
+  to {
+    filter: drop-shadow(0 0 var(--glow-intensity) currentColor) drop-shadow(0 0 calc(var(--glow-intensity) * 2) currentColor);
+  }
+}
+
+/* Floating Animation */
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Glass Morphism */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius);
+}
+
+/* Neon Border */
+.neon-border {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--midnight), var(--midnight)) padding-box,
+              linear-gradient(135deg, var(--neon-pink), var(--neon-purple), var(--neon-blue)) border-box;
+  border-radius: var(--border-radius);
+}
+
+/* Cyberpunk Grid */
+.cyber-grid {
+  background-image: 
+    linear-gradient(rgba(6, 255, 165, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 255, 165, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Holographic Effect */
+.holographic {
+  background: linear-gradient(45deg, 
+    transparent 30%, 
+    rgba(6, 255, 165, 0.1) 40%, 
+    rgba(6, 255, 165, 0.3) 50%, 
+    rgba(6, 255, 165, 0.1) 60%, 
+    transparent 70%
+  );
+  background-size: 200% 200%;
+  animation: hologramShift 3s linear infinite;
+}
+
+@keyframes hologramShift {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--midnight);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, var(--neon-pink), var(--neon-purple));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, var(--neon-purple), var(--neon-blue));
+}
+
+/* Focus States */
+.focus-neon:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--neon-cyan);
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  border: 3px solid rgba(6, 255, 165, 0.3);
+  border-top: 3px solid var(--neon-cyan);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Particle Background */
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  :root {
+    --glow-intensity: 10px;
+  }
+  
+  .gradient-text {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+  }
+}
+
+/* High Performance Animations */
+@media (prefers-reduced-motion: reduce) {
+  .animated-bg,
+  .pulse-neon,
+  .float,
+  .holographic {
+    animation: none;
+  }
+}
+
+/* Dark Theme Overrides */
+.dark {
+  --midnight: #000000;
+  --dark-purple: #1a0033;
+  --deep-blue: #0a001f;
+}

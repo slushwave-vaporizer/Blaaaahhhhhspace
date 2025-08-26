@@ -1,0 +1,54 @@
+[
+  {
+    "id": "conv-1",
+    "participants": ["11", "12"],
+    "lastMessage": {
+      "id": "msg-15",
+      "senderId": "12",
+      "content": "Thanks for the feedback on the design! I'll implement those changes tomorrow.",
+      "timestamp": "2025-06-19T22:45:30Z",
+      "read": false
+    },
+    "unreadCount": 1,
+    "lastActivity": "2025-06-19T22:45:30Z"
+  },
+  {
+    "id": "conv-2",
+    "participants": ["11", "13"],
+    "lastMessage": {
+      "id": "msg-28",
+      "senderId": "11",
+      "content": "Perfect! Let's merge that PR then. Great work on the optimization! 🚀",
+      "timestamp": "2025-06-19T21:20:15Z",
+      "read": true
+    },
+    "unreadCount": 0,
+    "lastActivity": "2025-06-19T21:20:15Z"
+  },
+  {
+    "id": "conv-3",
+    "participants": ["11", "14"],
+    "lastMessage": {
+      "id": "msg-42",
+      "senderId": "14",
+      "content": "I loved your accessibility article! Would love to collaborate on a project.",
+      "timestamp": "2025-06-19T20:15:45Z",
+      "read": true
+    },
+    "unreadCount": 0,
+    "lastActivity": "2025-06-19T20:15:45Z"
+  },
+  {
+    "id": "conv-4",
+    "participants": ["11", "15"],
+    "lastMessage": {
+      "id": "msg-56",
+      "senderId": "15",
+      "content": "Hey! Saw your React project. Impressive work! Are you interested in joining our startup?",
+      "timestamp": "2025-06-19T19:30:22Z",
+      "read": false
+    },
+    "unreadCount": 2,
+    "lastActivity": "2025-06-19T19:30:22Z"
+  }
+]
